@@ -1,0 +1,156 @@
+// Type styles
+body { font-size: 17px; line-height: 1.7; font-weight: 300; }
+
+// Headers
+h1,h2,h3,h4,h5,h6 {
+    color: $cGrayDark;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+h1 { font-size: 25px; }
+h2,h3,h4,h5,h6 { font-size: 14px; text-transform: uppercase; }
+
+// Paragraphs
+p {
+    color: $cGrayDark;
+    margin: 20px 0;
+}
+strong {
+    font-weight: 600;
+}
+em {
+    font-style: italic;
+}
+
+// Links
+a, a:visited {
+    color: $cGrayDark;
+    text-decoration: none;
+}
+
+// Horizontal Ruler
+hr {
+    background: $cGrayBorder;
+    border: 0;
+    height: 1px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+// Lists
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 40px;
+}
+
+// Code
+code {
+    background-color: $cGray;
+    font-family: monospace;
+    font-size: 15px;
+    white-space: pre-wrap;
+}
+
+pre {
+    background-color: $cGray;
+    border: 1px solid $cGrayBorder;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+
+// Blockquotes
+blockquote {
+    border-left: 5px solid $cGrayBorder;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 20px;
+    position: relative;
+
+    p {
+        position: relative;
+        z-index: 1;
+    }
+
+    &:after {
+        bottom: 0;
+        color: $cGrayBorder;
+        content:'”';
+        font-family: "Georgia", serif;
+        font-size: 200px;
+        line-height: 0;
+        position: absolute;
+        right: 15px;
+        z-index: 0;
+    }
+
+}
+
+// Tables
+table {
+    border: 1px solid $cGrayBorder;
+    border-collapse: separate;
+    border-radius: 3px;
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+
+    th {
+        border-bottom: 1px solid $cGray;
+        font-weight: 600;
+        padding: 8px 15px;
+    }
+
+    tr {
+        border-bottom: 1px solid $cGrayBorder;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+    }
+
+    td {
+        border-right: 1px solid $cGrayBorder;
+        padding: 8px 15px;
+
+        &:last-child {
+            border-right: none;
+        }
+
+    }
+
+}
+
+// Definition List
+dl {
+    margin: 10px 0;
+
+    dt {
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    dd {
+        font-style: italic;
+        -webkit-margin-start: 40px;
+        margin-bottom: 10px;
+    }
+
+}
+
+// Footnotes
+.footnotes {
+    font-size: 14px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}

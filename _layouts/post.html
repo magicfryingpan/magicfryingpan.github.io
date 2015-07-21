@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="content-wrapper">
+
+      <div class="post-holder">
+        <div class="color-palette" id="{{ page.color }}"></div>
+        <h1 class="post-title">{{ page.title }}
+        <span>{{ page.author }}</span>
+        </h1>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="post-container">
+
+        <div class="post-item">
+
+          <article class="post-content">
+            {{ content }}
+          </article>
+
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES * * */
+              var disqus_shortname = 'magicfryingpan';
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </div><!-- End Post Item -->
+
+      </div><!-- End Post Container -->
+
+    {% include footer.html %}
+
+    </div><!-- End Content Wrapper -->
+
+  </body>
+
+</html>

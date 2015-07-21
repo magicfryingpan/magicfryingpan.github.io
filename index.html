@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="post-list">
+
+  {% for post in site.posts %}
+    <a class="post-holder" href="{{ post.url | prepend: site.baseurl }}">
+      <div class="color-palette" id="{{ post.color }}"></div>
+      <h1 class="post-title">{{ post.title }}
+      <span>{{ post.author }}</span>
+      </h1>
+      <div class="clearfix"></div>
+    </a>
+    <div class="post-container">
+
+      <div class="post-item">
+        {{ post.content }}
+      </div><!-- End Post Item -->
+
+    </div><!-- End Post Container -->
+  {% endfor %}
+
+</div><!-- End Post List -->
