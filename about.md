@@ -24,6 +24,6 @@ If you haven't played Earthbound, it's best to stop reading this and do so immed
 
 We can wait.
 
-Okay, finished it? Awesome. Well, in Earthbound one of your characters (Paula) is able to weild a weapon called the _Magic Fry Pan_. This weapon is badass, has a cool name and is part of a game loved by many.
+Okay, finished it? Awesome. Well, in Earthbound one of your characters (Paula) is able to wield a weapon called the _Magic Fry Pan_. This weapon is badass, has a cool name and is part of a game loved by many.
 
 So, this blog piggybacks off that weapon's name in order to (hopefully) borrow some of that nostalgia _magic_...
