@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Subscribe
-color: blue
 permalink: /subscribe/
 ---
 
@@ -17,4 +16,5 @@ permalink: /subscribe/
 
 <p></p>
 
-[@magicfryingpan](http://twitter.com)
+[@LukeBailey](https://twitter.com/LukeBailey)
+[@bradtaunt](https://twitter.com/bradtaunt)
