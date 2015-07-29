@@ -20,7 +20,7 @@ But every survival horror game in recent years has had one major flaw, and it's 
 
 ### Games that have no stakes, have no tension
 
-The threat of a monster clawing your face off is only scary if it means something. For the first hour or two of _Amnesia: The Darkness Within_, I was terrified of the beasts roaming the moody castle. The creatures stomped around the rooms and with no weapons, the only way to survive was to hide or escape from them.
+The threat of a monster clawing your face off is only scary if it means something. For the first hour or two of _Amnesia: The Dark Descent_, I was terrified of the beasts roaming the moody castle. The creatures stomped around the rooms and with no weapons, the only way to survive was to hide or escape from them.
 
 But a few hours in, as I walked through one particular hallway, I was finally killed by a creature. It was a scary moment, for sure, but when the game restarted and I found myself in that same hallway a few minutes later, the fear was gone. I knew about the beast ahead, and I knew that even if he were to get me, I could try again.
 
