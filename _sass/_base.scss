@@ -8,7 +8,6 @@
 // Main typefaces
 body {
     background: $cWhite;
-    font-family: "europa", "Helvetica", sans-serif;
     height: 100%;
     -webkit-text-size-adjust: 100%;
     width: 100%;
@@ -27,10 +26,6 @@ header {
     padding: 20px 20px 10px 20px;
     width: 100%;
 
-    @media(max-width: 600px) {
-        padding: 40px 10px 30px;
-    }
-
     .site-title {
         display: inline-block;
 
@@ -40,6 +35,14 @@ header {
             letter-spacing: 3px;
             margin-bottom: 12px;
             padding: 0 10px;
+
+            &:before {
+                content:'Magic Frying Pan';
+
+                @media(max-width: 600px) {
+                    content:'MFP';
+                }
+            }
         }
 
     }
@@ -47,12 +50,6 @@ header {
     nav {
         float: right;
         margin-top: 3px;
-
-        @media(max-width: 600px) {
-            display: block;
-            float: none;
-            margin-top: 15px;
-        }
 
         a,a:visited {
             color: $cVisited;

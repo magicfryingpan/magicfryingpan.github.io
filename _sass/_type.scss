@@ -1,14 +1,44 @@
+// Import fonts
+// Light
+@font-face {
+    font-family: 'source_sans';
+    src: url('/fonts/sourcesanspro-light.eot');
+    src: url('/fonts/sourcesanspro-light.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/sourcesanspro-light.woff2') format('woff2'),
+         url('/fonts/sourcesanspro-light.woff') format('woff'),
+         url('/fonts/sourcesanspro-light.ttf') format('truetype'),
+         url('/fonts/sourcesanspro-light.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+}
+
+// Bold
+@font-face {
+    font-family: 'source_sans';
+    src: url('/fonts/sourcesanspro-semibold.eot');
+    src: url('/fonts/sourcesanspro-semibold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/sourcesanspro-semibold.woff2') format('woff2'),
+         url('/fonts/sourcesanspro-semibold.woff') format('woff'),
+         url('/fonts/sourcesanspro-semibold.ttf') format('truetype'),
+         url('/fonts/sourcesanspro-semibold.svg#source_sans_prosemibold') format('svg');
+    font-weight: bold;
+}
+
 // Type styles
-body { font-size: 17px; line-height: 1.7; font-weight: 300; }
+body {
+    font-family: "source_sans", "Helvetica", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 2;
+}
 
 // Headers
 h1,h2,h3,h4,h5,h6 {
     color: $cGrayDark;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 h1 { font-size: 25px; }
-h2,h3,h4,h5,h6 { font-size: 14px; text-transform: uppercase; }
+h2,h3,h4,h5,h6 { font-size: 20px; text-transform: uppercase; }
 
 // Paragraphs
 p {
@@ -16,9 +46,10 @@ p {
     margin: 20px 0;
 }
 strong {
-    font-weight: 600;
+    font-weight: bold;
 }
 em {
+    font-weight: bold;
     font-style: italic;
 }
 
