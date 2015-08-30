@@ -10,7 +10,7 @@ As I write this, _Metal Gear Solid 5: The Phantom Pain_ is still a few days away
 
 So what better time to look at the beginning?
 
-The first Metal Gear Solid game was released way back in 1998, and I still remember being blown the first time I played it. What makes Metal Gear Solid special, in my opinion, is that it has the plot of a simple action thriller, but is actually about so much more. On the surface, the game is about a super spy breaking into a remote nuclear facility to stop a terrorist plot. Down underneath, the game is about nihilism, free will, predestination, and what it means to be human.
+The first Metal Gear Solid game was released way back in 1998, and I still remember being blown away the first time I played it. What makes Metal Gear Solid special, in my opinion, is that it has the plot of a simple action thriller, but is actually about so much more. On the surface, the game is about a super spy breaking into a remote nuclear facility to stop a terrorist plot. Down underneath, the game is about nihilism, free will, predestination, and what it means to be human.
 
 That's right kids, we're back in high school English class. Let's pick apart the themes of Metal Gear Solid like it's a John Steinbeck novel.
 
@@ -35,7 +35,7 @@ Liquid Snake, the evil, blonde, inexplicably British clone thinks he has been gi
 
 Bad move – Solid Snake ends up foiling his plans and saving the day, of course. So is this a win for predestination? Not quite – a post-credits scene reveals it was actually Liquid who had the stronger genes all along, he just didn't know it.
 
-<iframe class="video" src="https://www.youtube.com/embed/FmoLd_YiQ-U" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" src="https://www.youtube.com/embed/qm_lxeQ6PmM" frameborder="0" allowfullscreen></iframe>
 
 So if Solid Snake had the weaker genes, and still saved the day – score a point for free will!
 
