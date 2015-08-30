@@ -66,6 +66,12 @@ header {
     }
 }
 
+// iFrames
+.video {
+    min-height: 320px;
+    width: 100%;
+}
+
 // Content wrapper
 .content-wrapper {
     display: block;
