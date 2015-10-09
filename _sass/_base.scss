@@ -90,6 +90,10 @@ header {
     position: relative;
     width: 100%;
 
+    @media(max-width:600px) {
+        height: 250px;
+    }
+
     hr {
         background: $cBlack;
         border: 0;
