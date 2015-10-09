@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Subscribe
+color: blue
 permalink: /subscribe/
 ---
 
