@@ -83,22 +83,29 @@ header {
 // Post Holder
 .post-holder {
     display: block;
+    height: 500px;
     margin: 0 auto;
     max-width: 700px;
     padding: 0 0 0 20px;
     position: relative;
     width: 100%;
 
+    hr {
+        background: $cBlack;
+        border: 0;
+        height: 5px;
+        width: 50px;
+    }
+
     // Color palette
     .color-palette {
-        float: right;
-        height: 500px;
+        border-radius: 9999px;
+        bottom: 0;
+        height: 400px;
+        position: absolute;
+        right: 0;
         transition: width .3s ease;
-        width: 50%;
-
-        @media(max-width: 600px) {
-            height: 300px;
-        }
+        width: 400px;
 
         &#blue {
             background: $cBlue;

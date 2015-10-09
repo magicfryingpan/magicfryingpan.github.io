@@ -7,7 +7,10 @@ layout: default
   {% for post in site.posts %}
     <a class="post-holder" href="{{ post.url | prepend: site.baseurl }}">
       <div class="color-palette" id="{{ post.color }}"></div>
-      <h1 class="post-title">{{ post.title }}
+      <h1 class="post-title">
+      <hr/>
+      {{ post.title }}
+      <hr/>
       <span>{{ post.author }}</span>
       </h1>
       <div class="clearfix"></div>

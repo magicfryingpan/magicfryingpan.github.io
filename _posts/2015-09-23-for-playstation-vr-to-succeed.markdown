@@ -3,7 +3,7 @@ layout: post
 title: 'For Playstation VR to succeed, it just needs one thing'
 date: 2015-09-23T00:00:00.000Z
 author: Luke Bailey
-color: red
+color: blue
 permalink: for-playstation-vr-to-succeed
 ---
 
